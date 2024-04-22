@@ -27,7 +27,7 @@ from langchain.schema import HumanMessage, SystemMessage
 
 username = "postgres" 
 host = "localhost"
-password = "hbp191020"
+password = "@%^*())_&^%"
 port = "5432"
 mydatabase = "dbadmin"
 
@@ -42,7 +42,7 @@ db = SQLDatabase.from_uri(pg_uri)
 
 #Setup LLM
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "@*#(#&#^#&#*#((#"
 
 llm = ChatOpenAI(temperature=0, openai_api_key=OPENAI_API_KEY, model_name='gpt-3.5-turbo')
 db_chain = SQLDatabaseChain.from_llm(llm, db, verbose=True)
